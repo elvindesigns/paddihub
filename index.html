@@ -12,7 +12,10 @@
       rel="stylesheet"
       type="text/css"
     />
-
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+    />
     <!-- styles -->
     <link href="assets\css\plugins.css" rel="stylesheet" type="text/css" />
     <link href="assets\css\style.css" rel="stylesheet" type="text/css" />
@@ -63,7 +66,7 @@
         <div class="signdiv">
           <a href="./signin.html" class="signin">Sign In</a>
         </div>
-        
+
         <!-- menu-open start -->
         <div class="menu-open pointer-large">
           <span class="hamburger"></span>
@@ -142,36 +145,45 @@
       <section
         id="up"
         class="page-head flex-min-height-box dark-bg-2 typewriter-home"
+        style="height: 50vh;"
       >
         <!-- page-head-bg -->
         <div
           class="page-head-bg"
-          style="background-image: url(assets/images/about/bg2.jpg);"
+          style="background-image: url(assets/images/bg.jpg);"
         ></div>
 
         <!-- flex-min-height-inner start -->
-        <div class="flex-min-height-inner">
+        <div class="flex-min-height-inner" style="min-height: 40vh;">
           <!-- container start -->
           <div class="container top-bottom-padding-120">
             <!-- <h2 class="overlay-loading2 medium-title red-color" style="font-weight: 900; background-color: rgb(36, 36, 36); padding: 15px">Welcome to PaddiHub</h2> -->
-            <h3 class="large-title-bold text-color-4">
-              <span class="overlay-loading2 overlay-light-bg-1 tr-delay01"
-                >Create endless possibilities <br />
-                to succeed in business </span
+            <h3
+              class="large-title-bold text-color-4"
+              style="text-align: center; text-transform: none;"
+            >
+              <span
+                class="overlay-loading2 overlay-light-bg-1 tr-delay01"
+                style="text-align: center;"
+                >We Make Running A Successful<br />
+                Business Easy </span
               ><br />
-              <span class="overlay-loading2 overlay-light-bg-1 tr-delay02"
+              <!-- <span class="overlay-loading2 overlay-light-bg-1 tr-delay02"
                 >through our highly supportive</span
               ><br />
               <span class="overlay-loading2 overlay-light-bg-1 tr-delay03"
                 >community & expert services</span
-              ><br />
+              ><br /> -->
               <!-- <span
                 class="overlay-loading2 overlay-light-bg-1 tr-delay03"
                 id="typewriter"
                 >community & expert services</span
               > -->
             </h3>
-            <p class="d-flex-wrap top-margin-20 text-color-4">
+            <p
+              class="d-flex-wrap top-margin-20 text-color-4"
+              style="justify-content: center;"
+            >
               <span
                 class="small-title-oswald text-height-20 fade-loading tr-delay04 top-margin-10"
                 >Reliable</span
@@ -203,7 +215,11 @@
       <!-- page-head end -->
 
       <!-- flex-min-height-box start -->
-      <section id="down" class="dark-bg-1 flex-min-height-box">
+      <section
+        id="down"
+        class="dark-bg-1 flex-min-height-box"
+        style="background: #fff;"
+      >
         <!-- flex-min-height-inner start -->
         <div class="flex-min-height-inner">
           <!-- container start -->
@@ -228,6 +244,14 @@
                     >As it Should be</span
                   >
                 </h2>
+                <style>
+                  .dark-bg-1 .title-fill::after {
+                    background: #fff;
+                  }
+                  .title-fill::after {
+                    color: #161616;
+                  }
+                </style>
               </div>
               <!-- column end -->
               <!-- column start -->
@@ -236,7 +260,7 @@
                   <p
                     data-animation-child=""
                     class="p-style-medium text-color-5 fade-anim-box tr-delay02"
-                    style="text-align:center"
+                    style="text-align:center; color: #373737;"
                     data-animation="fade-anim"
                   >
                     We are redefining what business is for small business
@@ -252,31 +276,43 @@
                 <p
                   data-animation-child=""
                   class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04"
-                  style="font-size:20px"
+                  style="font-size:20px; color: #161616;"
                   data-animation="fade-anim"
                 >
-                  you can finally breathe for relieve
+                  you can finally Sigh for relieve
                 </p>
                 <br />
                 <p
                   data-animation-child=""
                   class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04"
-                  style="font-size:40px; margin-top:80px;"
+                  style="font-size:40px; margin-top:80px;color: #161616; text-transform: none"
                   data-animation="fade-anim"
                 >
-                  Request to join our Community
+                  Join Our Exclusive Community
                 </p>
                 <br />
                 <div class="slider-fade slider-tr-delay07 top-margin-30">
                   <div class="border-btn-box border-btn-red pointer-large">
                     <div class="border-btn-inner">
-                      <a href="./signup.html" class="border-btn" data-text="Request Access"
+                      <a
+                        href="./signup.html"
+                        class="border-btn"
+                        data-text="Request Access"
                         >Request Access</a
                       >
                     </div>
                     <style>
                       .slider-fade {
                         opacity: 1;
+                      }
+                      .border-btn-red.border-btn-box::before,
+                      .border-btn-red .border-btn-inner::after,
+                      .border-btn-red.border-btn-box::after,
+                      .border-btn-red .border-btn-inner::before {
+                        background: #111;
+                      }
+                      .border-btn-red .border-btn::after {
+                        color: #2b2b2b;
                       }
                       .border-btn {
                         font-size: 20px;
@@ -607,110 +643,108 @@
         <!-- bottom-padding-90 end -->
       </section>
       <!-- section end -->
+      <section class="container">
+          <div data-animation-container="" class="text-center animated">
+              <h2
+                data-animation-child=""
+                class="large-title text-height-10 text-color-1 overlay-anim-box2 animated overlay-anim2"
+                data-animation="overlay-anim2"
+              >
+               Our Partners
+              </h2>
+              <br />
+              <p
+                data-animation-child=""
+                class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5 animated fade-anim"
+                data-animation="fade-anim"
+              >
+                Clients we've worked with
+              </p>
+            </div>
+          <div class="slider " style="height: 300px; margin-top: 60px">
+              <div class="slide-track">
+                <div class="slide">
+                  <img src="./assets/images/01.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/02.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/03.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/04.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/05.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/01.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/02.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/03.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/04.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/05.jpg" height="100" width="250" alt="" />
+                </div>
 
-      <!-- section start -->
-      <section class="dark-bg-2">
-        <!-- container start -->
-        <div class="container small top-bottom-padding-120">
-          <!-- medium-title start -->
-          <h2 data-animation-container="" class="medium-title">
-            <span
-              data-animation-child=""
-              class="title-fill"
-              data-animation="title-fill-anim"
-              data-text="Some Clients"
-              >Some Clients</span
-            ><br />
-            <span
-              data-animation-child=""
-              class="title-fill tr-delay01"
-              data-animation="title-fill-anim"
-              data-text="We’ve Worked"
-              >We’ve Worked</span
-            ><br />
-            <span
-              data-animation-child=""
-              class="title-fill tr-delay02"
-              data-animation="title-fill-anim"
-              data-text="With"
-              >With</span
-            >
-          </h2>
-          <!-- medium-title end -->
-
-          <!-- client-list start -->
-          <ul class="client-list d-flex-wrap top-padding-60">
-            <li>
-              <a href="#" class="pointer-large d-block">
-                <div class="brand-box">
-                  <img
-                    src="assets\images\clients\pye1.png"
-                    alt="Brand"
-                    class="hover-opac-img"
-                  />
-                  <img
-                    src="assets\images\clients\pye2.png"
-                    alt="Brand"
-                    class="opac-img"
-                  />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="pointer-large d-block">
-                <div class="brand-box">
-                  <img
-                    src="assets\images\clients\kim1.png"
-                    alt="Brand"
-                    class="hover-opac-img"
-                  />
-                  <img
-                    src="assets\images\clients\kim2.png"
-                    alt="Brand"
-                    class="opac-img"
-                  />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="pointer-large d-block">
-                <div class="brand-box">
-                  <img
-                    src="assets\images\clients\felak1.png"
-                    alt="Brand"
-                    class="hover-opac-img"
-                  />
-                  <img
-                    src="assets\images\clients\felak2.png"
-                    alt="Brand"
-                    class="opac-img"
-                  />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="pointer-large d-block">
-                <div class="brand-box">
-                  <img
-                    src="assets\images\clients\clyde1.png"
-                    alt="Brand"
-                    class="hover-opac-img"
-                  />
-                  <img
-                    src="assets\images\clients\clyde2.png"
-                    alt="Brand"
-                    class="opac-img"
-                  />
-                </div>
-              </a>
-            </li>
-          </ul>
-          <!-- client-list end -->
-        </div>
-        <!-- container end -->
+              </div>
+            </div>
       </section>
-      <!-- section end -->
-
+      <!-- light-bg-2 start -->
+			<div class="light-bg-2 top-bottom-padding-120" data-midnight="black">
+          <!-- testimonials-slider start -->
+          <div class="testimonials-slider container small">
+            <!-- swiper-wrapper start -->
+            <div class="swiper-wrapper">
+              <!-- slide start -->
+              <div class="swiper-slide text-center">
+                <img src="assets\images\testimonials\adult-beanie-black-background-1529350.jpg" alt="author">
+                <div class="testimonials-content">
+                  <p class="text-color-4 p-style-bold " style="text-align: center">One word I can use to describe the PaddiHub team is their commitment to the task at hand, innovative in breaking new grounds, they always offers value for money.
+                     <br> Their dexterity has opened up new frontiers and new markets for Fonio lovers and for Pye Ryat. Their skill has made has increased our visibility
+                      </p>
+                </div>
+                <div class="text-color-1 small-title-oswald">
+                    Yop Pamtok, GM & Co-founder Pye Ryat Foods
+                </div>
+              </div><!-- slide end -->
+              <!-- slide start -->
+              <div class="swiper-slide text-center">
+                <img src="assets\images\testimonials\pexels-photo-428340.jpeg" alt="author">
+                <div class="testimonials-content">
+                  <p class="text-color-4 p-style-bold " style="text-align: center">We have been working with the team at PaddiHub for our online marketing. During the period they have shown a good understanding of marketing and sales operations.
+<br>
+We believe that Mr Anselem and the team would be an asset for any company's online marketing.                    </p>
+                </div>
+                <div class="text-color-1 small-title-oswald">
+                    Dung David Dayi, CEO Kim's Coffee 
+                </div>
+              </div><!-- slide end -->
+              <!-- slide start -->
+              <div class="swiper-slide text-center">
+                <img src="assets\images\testimonials\kims.jpg" alt="author">
+                <div class="testimonials-content">
+                  <p class="text-color-4 p-style-bold text-center"style="text-align: center">Anselem and the team are social media savvy with the ability to be creative and think outside the box despite a limited budget. He is excellent in account management which includes a quick response rate in communicating with potential customers thus helping in transforming inquiries into sales and increasing an organic following.</p>
+                </div>
+                <div class="text-color-1 small-title-oswald">
+                    Annabel Fehlmann, Manager, Felak Meat & Felak Burger Bistro
+                </div>
+              </div><!-- slide end -->
+             
+              
+            </div><!-- swiper-wrapper end -->
+            
+            <!-- swiper-pagination -->
+            <div class="swiper-pagination"></div>
+          </div><!-- testimonials-slider end -->
+        </div><!-- light-bg-2 end -->
       <!-- video-content-bg start -->
       <!-- <div class="video-content-bg" style="background-image:url(assets/images/backgrounds/business-calligraphy-chinese-lanterns-1455969.jpg)">
 				<div class="bg-overlay"></div>
@@ -1154,8 +1188,12 @@
     <!-- footer end -->
 
     <!-- scripts -->
+ <link rel="stylesheet" href="./assets/js/style.css">
+
     <script src="assets\js\plugins.js"></script>
+
     <script src="assets\js\main.js"></script>
+
     <script src="assets\js\typewriter.js"></script>
   </body>
 </html>
