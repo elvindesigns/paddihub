@@ -1,0 +1,958 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>PaddiHub</title>
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7COswald:300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+    />
+    <!-- styles -->
+    <link href="assets\css\plugins.css" rel="stylesheet" type="text/css" />
+    <link href="assets\css\style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="loader">
+    <!-- loading start -->
+    <div class="loading">
+      <img
+        class="logo-loading"
+        src="assets\images\logo\logo-loader.png"
+        alt="logo"
+      />
+    </div>
+    <!-- loading end -->
+
+    <!-- pointer start -->
+    <div class="pointer" id="pointer">
+      <i class="fas fa-long-arrow-alt-right"></i>
+      <i class="fas fa-search"></i>
+      <i class="fas fa-link"></i>
+    </div>
+    <!-- pointer end -->
+
+    <!-- to-top-btn start -->
+    <a class="to-top-btn pointer-small" href="#up">
+      <span class="to-top-arrow"></span> </a
+    ><!-- to-top-btn end -->
+
+    <!-- header start -->
+    <header class="fixed-header" style="height: 46px !important;">
+      <!-- header-flex-box start -->
+      <div class="header-flex-box">
+        <!-- logo start -->
+        <a href="index.html" class="logo pointer-large animsition-link">
+          <div class="logo-img-box">
+            <img
+              class="logo-white"
+              src="assets\images\logo\logo-white.png"
+              alt="logo"
+            />
+            <img
+              class="logo-black"
+              src="assets\images\logo\logo-black.png"
+              alt="logo"
+            />
+          </div> </a
+        ><!-- logo end -->
+        <div class="signdiv">
+          <a href="./signin.html" class="signin">Sign In</a>
+        </div>
+
+        <!-- menu-open start -->
+        <div class="menu-open pointer-large">
+          <span class="hamburger"></span>
+        </div>
+        <!-- menu-open end -->
+      </div>
+      <!-- header-flex-box end -->
+    </header>
+    <!-- header end -->
+
+    <!-- nav-container start -->
+    <nav class="nav-container dark-bg-1">
+      <!-- nav-logo start -->
+      <div class="nav-logo">
+        <img src="assets\images\logo\logo-white.png" alt="logo" />
+      </div>
+      <!-- nav-logo end -->
+
+      <!-- menu-close -->
+      <div class="menu-close pointer-large"></div>
+
+      <!-- dropdown-close-box start -->
+      <div class="dropdown-close-box">
+        <div class="dropdown-close pointer-large">
+          <span></span>
+        </div>
+      </div>
+      <!-- dropdown-close-box end -->
+
+      <!-- nav-menu start -->
+      <ul class="nav-menu dark-bg-1">
+        <!-- nav-box start -->
+        <li class="nav-box nav-bg-change active ">
+          <!-- <li class="nav-box nav-bg-change active dropdown-open"> -->
+          <a href="index.html" class="animsition-link pointer-large nav-link">
+            <span class="nav-btn active" data-text="Home">Home</span>
+          </a>
+
+          <div
+            class="nav-bg"
+            style="background-image: url(assets/images/about/bg2.jpg);"
+          ></div>
+        </li>
+
+        <li class="nav-box nav-bg-change">
+          <a
+            href="services.html"
+            class="animsition-link pointer-large nav-link"
+          >
+            <span class="nav-btn" data-text="Get Help">Get Help</span>
+          </a>
+          <div
+            class="nav-bg"
+            style="background-image: url(assets/images/about/apple-brainstorming-business-908288.jpg);"
+          ></div>
+        </li>
+
+        <li class="nav-box nav-bg-change">
+          <a href="contact.html" class="animsition-link pointer-large nav-link">
+            <span class="nav-btn" data-text="Contact">Contact</span>
+          </a>
+          <div
+            class="nav-bg"
+            style="background-image: url(assets/images/contact_left.jpg);"
+          ></div>
+        </li>
+        <!-- nav-box end -->
+      </ul>
+      <!-- nav-menu end -->
+    </nav>
+    <!-- nav-container end -->
+
+    <!-- animsition-overlay start -->
+    <main class="animsition-overlay" data-animsition-overlay="true">
+      <!-- page-head start -->
+      <section
+        id="up"
+        class="page-head flex-min-height-box dark-bg-2 typewriter-home"
+        style="height: 50vh;"
+      >
+        <!-- page-head-bg -->
+        <div
+          class="page-head-bg"
+          style="background-image: url(assets/images/bg.jpg);"
+        ></div>
+
+        <!-- flex-min-height-inner start -->
+        <div class="flex-min-height-inner" style="min-height: 40vh;">
+          <!-- container start -->
+          <div class="container top-bottom-padding-120">
+            <!-- <h2 class="overlay-loading2 medium-title red-color" style="font-weight: 900; background-color: rgb(36, 36, 36); padding: 15px">Welcome to PaddiHub</h2> -->
+            <h3
+              class="large-title-bold text-color-4"
+              style="text-align: center; text-transform: none; margin-top: 40px"
+            >
+              <span
+                class="overlay-loading2 overlay-light-bg-1 tr-delay01"
+                style="text-align: center;"
+                >Small businesses succeeding Together</span
+              ><br />
+               <span class="overlay-loading2 overlay-light-bg-1 tr-delay02" style="font-size: 27px;letter-spacing: 0px;font-weight: normal;"
+                >PaddiHub is an online to offline business community <br> that helps small businesses thrive by providing <br> access to business services at an affordable cost through our <br> cost sharing and flexible payment plans <br> and peer-to-peer support system.</span
+              ><br />
+              <!--
+              <span class="overlay-loading2 overlay-light-bg-1 tr-delay03"
+                >community & expert services</span
+              ><br /> -->
+              <!-- <span
+                class="overlay-loading2 overlay-light-bg-1 tr-delay03"
+                id="typewriter"
+                >community & expert services</span
+              > -->
+            </h3>
+            <p
+              class="d-flex-wrap top-margin-20 text-color-4"
+              style="justify-content: center;"
+            >
+              <span
+                class="small-title-oswald text-height-20 fade-loading tr-delay04 top-margin-10"
+                >Reliable</span
+              >
+              <span
+                class="small-title-oswald text-height-20 fade-loading tr-delay05 top-margin-10"
+                >Supportive</span
+              >
+              <span
+                class="small-title-oswald text-height-20 fade-loading tr-delay06 top-margin-10"
+                >Innovative</span
+              >
+            </p>
+          </div>
+          <!-- container end -->
+        </div>
+        <!-- flex-min-height-inner end -->
+
+        <!-- scroll-btn start -->
+        <!-- <a href="#down" class="scroll-btn pointer-large">
+          <div class="scroll-arrow-box">
+            <span class="scroll-arrow"></span>
+          </div>
+          <div class="scroll-btn-flip-box">
+            <span class="scroll-btn-flip" data-text="Scroll">Scroll</span>
+          </div> </a> -->
+        <!-- scroll-btn end -->
+      </section>
+      <!-- page-head end -->
+
+      <!-- flex-min-height-box start -->
+      <section
+        id="down"
+        class="dark-bg-1 flex-min-height-box"
+        style="background: #fff;"
+      >
+        <!-- flex-min-height-inner start -->
+        <div class="flex-min-height-inner">
+          <!-- container start -->
+          <div class="container small top-bottom-padding-120">
+            <!-- flex-container start -->
+            <div data-animation-container="" class="flex-container">
+              <!-- column start -->
+              <div class="twelve-columns text-center">
+                <h2 class="large-title text-height-12">
+                  <span
+                    data-animation-child=""
+                    class="title-fill"
+                    data-animation="title-fill-anim"
+                    data-text="Improve Your Chances At Success"
+                    >Improve Your Chances At Success</span
+                  ><br />
+                  <span
+                    data-animation-child=""
+                    class="title-fill tr-delay01"
+                    data-animation="title-fill-anim"
+                    data-text="With A Community That Helps"
+                    >With A Community That Helps</span
+                  >
+                </h2>
+                <style>
+                  .dark-bg-1 .title-fill::after {
+                    background: #fff;
+                  }
+                  .title-fill::after {
+                    color: #161616;
+                  }
+                </style>
+              </div>
+              <!-- column end -->
+              <!-- column start -->
+              <div class="twelve-columns">
+                <div class="content-right-margin-20">
+                  <p
+                    data-animation-child=""
+                    class="p-style-medium text-color-5 fade-anim-box tr-delay02"
+                    style="text-align:center; color: #373737;"
+                    data-animation="fade-anim"
+                  >
+                  Frankly, No one should have to struggle to build a thriving business alone. And you shouldn't. <br />
+                  Join our community of small businesses enjoying access to premium business services and tools, supporting each other and leveraging technology to increase their chances at success.
+                  </p>
+                </div>
+              </div>
+
+              <div class="twelve-columns text-center">
+                <!-- <p
+                  data-animation-child=""
+                  class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04"
+                  style="font-size:20px; color: #161616;"
+                  data-animation="fade-anim"
+                >
+                  you can finally Sigh for relieve
+                </p> -->
+                <br />
+                <p
+                  data-animation-child=""
+                  class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04"
+                  style="font-size:40px; margin-top:80px;color: #161616; text-transform: none"
+                  data-animation="fade-anim"
+                >
+                Join Our Community Now
+                </p>
+                <br />
+                <div class="slider-fade slider-tr-delay07 top-margin-30">
+                  <div class="border-btn-box border-btn-red pointer-large">
+                    <div class="border-btn-inner">
+                      <a
+                        href="./signup.html"
+                        class="border-btn"
+                        data-text="Request Access"
+                        >Request Access</a
+                      >
+                    </div>
+                    <style>
+                      .slider-fade {
+                        opacity: 1;
+                      }
+                      .border-btn-red.border-btn-box::before,
+                      .border-btn-red .border-btn-inner::after,
+                      .border-btn-red.border-btn-box::after,
+                      .border-btn-red .border-btn-inner::before {
+                        background: #111;
+                      }
+                      .border-btn-red .border-btn::after {
+                        color: #2b2b2b;
+                      }
+                      .border-btn {
+                        font-size: 15px;
+                      }
+                    </style>
+                  </div>
+                </div>
+              </div>
+              <!-- column end -->
+            </div>
+            <!-- flex-container end -->
+          </div>
+          <!-- container end -->
+        </div>
+        <!-- flex-min-height-inner end -->
+      </section>
+      <!-- flex-min-height-box end -->
+
+      <!-- section start -->
+			<section class="light-bg-1" data-midnight="black">
+          <!-- container start -->
+          <div class="container bottom-padding-60 top-padding-120" style="padding-left:80px;padding-right:80px;">
+           
+  
+          	
+  
+            
+            <div data-animation-container="" class="text-center" style="margin-top:50px">
+                <p data-animation-child="" class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5" data-animation="fade-anim">How we can help</p> <br>
+              <h2 data-animation-child="" class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">INDIVIDUAL SERVICES</h2><br>
+              
+            </div><!-- text-center end -->
+            
+            <!-- flex-container start -->
+            <div class="flex-container response-999 top-padding-60">
+              <!-- column start -->
+              <div class="six-columns bottom-padding-60">
+                <a data-animation-container="" href="#" class="content-right-margin-20 hover-box pointer-large d-block light-bg-2">
+                  <div data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 expertise-img-box" data-animation="overlay-anim2">
+                    <img class="hover-img" src="assets\images\services\analysis-business-coffee-1549702.jpg" alt="Digital products">
+                  </div>
+                  <div class="expertise content-padding-l-r-20 content-padding-bottom-20">
+                    <h3 data-animation-child="" class="title-style text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">
+                        Many For One</h3><br>
+                    <p data-animation-child="" class="p-style-small text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Help other businesses work for your success. We are a community that supports growth.</p>
+                  </div>
+                </a>
+              </div><!-- column end -->
+              <!-- column start -->
+              <div class="six-columns bottom-padding-60">
+                <a data-animation-container="" href="#" class="content-left-right-margin-10 hover-box pointer-large d-block light-bg-2">
+                  <div data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 expertise-img-box" data-animation="overlay-anim2">
+                    <img class="hover-img" src="assets\images\services\analysis-business-businesswoman-955447.jpg" alt="Digital products">
+                  </div>
+                  <div class="expertise content-padding-l-r-20 content-padding-bottom-20">
+                    <h3 data-animation-child="" class="title-style text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Premium Services For A Dime</h3><br>
+                    <p data-animation-child="" class="p-style-small text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Enjoy the best of business service by top experts at the fraction of a cost - at a dime.</p>
+                  </div>
+                </a>
+              </div><!-- column end -->
+              <!-- column start -->
+              <div class="six-columns bottom-padding-60">
+                <a data-animation-container="" href="#" class="content-right-margin-20 hover-box pointer-large d-block light-bg-2">
+                  <div data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 expertise-img-box" data-animation="overlay-anim2">
+                    <img class="hover-img" src="assets\images\services\analysis-business-coffee-1549702.jpg" alt="Digital products">
+                  </div>
+                  <div class="expertise content-padding-l-r-20 content-padding-bottom-20">
+                    <h3 data-animation-child="" class="title-style text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">
+                        Peer-to-Peer Mentorship</h3><br>
+                    <p data-animation-child="" class="p-style-small text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Get the push, Achieve your goals with our structured peer-to-peer support system.</p>
+                  </div>
+                </a>
+              </div><!-- column end -->
+              <!-- column start -->
+              <div class="six-columns bottom-padding-60">
+                <a data-animation-container="" href="#" class="content-left-right-margin-10 hover-box pointer-large d-block light-bg-2">
+                  <div data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 expertise-img-box" data-animation="overlay-anim2">
+                    <img class="hover-img" src="assets\images\services\analysis-business-businesswoman-955447.jpg" alt="Digital products">
+                  </div>
+                  <div class="expertise content-padding-l-r-20 content-padding-bottom-20">
+                    <h3 data-animation-child="" class="title-style text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Raise Capital Without Raising your BP</h3><br>
+                    <p data-animation-child="" class="p-style-small text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Want to raise quick capital for your business without paying throat-cutting interests? We got you covered.</p>
+                  </div>
+                </a>
+              </div><!-- column end -->
+             
+             
+            </div><!-- flex-container end -->
+          </div><!-- container end -->
+        </section><!-- section end -->
+
+      <!-- section start -->
+      <section
+        class="light-bg-1 bottom-padding-30 top-padding-120"
+        data-midnight="black"
+      >
+        <!-- container start -->
+        <div
+          data-animation-container=""
+          class="container small bottom-padding-60 text-center"
+        >
+          <!-- <h2
+            data-animation-child=""
+            class="large-title text-height-10 text-color-1 overlay-anim-box2"
+            data-animation="overlay-anim2"
+          >
+            Why Choose Us ?
+          </h2>
+          <br />
+          <p
+            data-animation-child=""
+            class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5"
+            data-animation="fade-anim"
+          >
+            You havent made a mistake coming here and here's why..
+          </p> -->
+        </div>
+        <!-- container end -->
+
+        <!-- bottom-padding-90 start -->
+        <div class="bottom-padding-90">
+          <!-- portfolio-content start -->
+          <div class="portfolio-content flex-min-height-box">
+            <!-- portfolio-content-inner start -->
+            <div class="portfolio-content-inner flex-min-height-inner">
+              <!-- flex-container start -->
+              <div class="flex-container container small">
+                <!-- column start -->
+                <div data-animation-container="" class="six-columns">
+                  <div class="content-right-margin-40">
+                    <!-- <span class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">We Are</span> -->
+                    <h3 class="title-style text-color-1">
+                      <!-- <span data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">We Are</span><br> -->
+                      <span
+                        data-animation-child=""
+                        class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02"
+                        data-animation="overlay-anim2"
+                        >Affordable &amp;</span
+                      ><br />
+                      <span
+                        data-animation-child=""
+                        class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03"
+                        data-animation="overlay-anim2"
+                        >Accesible</span
+                      >
+                    </h3>
+                    <p
+                      data-animation-child=""
+                      class="p-style-small text-color-2 fade-anim-box tr-delay04"
+                      data-animation="fade-anim"
+                    >
+                      At the core of our being we want to provide the most
+                      affordable business service for small businesses. We
+                      promise we won’t ask you for cut-throat fees just because
+                      we can. We have the most flexible payment system for all
+                      our services, including simple innovations that has helped
+                      businesses like yours cut down costs.
+                    </p>
+
+                    <div
+                      data-animation-child=""
+                      class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05"
+                      data-animation="fade-anim"
+                    >
+                      <!-- <a href="#" class="arrow-btn pointer-large animsition-link">Read more</a> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- column end -->
+                <!-- column start -->
+                <div class="six-columns top-padding-60">
+                  <a
+                    href="project.html"
+                    class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link"
+                  >
+                    <div
+                      class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2"
+                      data-animation="overlay-anim2"
+                      style="background-image:url(assets/images/projects/pexels-photo-1619654.jpg); background-position: bottom"
+                    ></div>
+                  </a>
+                </div>
+                <!-- column end -->
+              </div>
+              <!-- flex-container end -->
+            </div>
+            <!-- portfolio-content-inner end -->
+          </div>
+          <!-- portfolio-content end -->
+        </div>
+        <!-- bottom-padding-90 end -->
+
+        <!-- bottom-padding-90 start -->
+        <div class="bottom-padding-90">
+          <!-- portfolio-content start -->
+          <div class="portfolio-content flex-min-height-box">
+            <!-- portfolio-content-inner start -->
+            <div class="portfolio-content-inner flex-min-height-inner">
+              <!-- flex-container start -->
+              <div class="flex-container reverse container small">
+                <!-- column start -->
+                <div class="six-columns top-padding-60">
+                  <a
+                    href="project.html"
+                    class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link"
+                  >
+                    <div
+                      class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2"
+                      data-animation="overlay-anim2"
+                      style="background-image:url(assets/images/projects/audio-cassette-cassette-tape-1626481.jpg)"
+                    ></div>
+                  </a>
+                </div>
+                <!-- column end -->
+                <!-- column start -->
+                <div data-animation-container="" class="six-columns">
+                  <div class="content-left-margin-40">
+                    <!-- <span class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">we are</span> -->
+                    <h3 class="title-style text-color-1">
+                      <span
+                        data-animation-child=""
+                        class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01"
+                        data-animation="overlay-anim2"
+                        >Beyond</span
+                      ><br />
+                      <span
+                        data-animation-child=""
+                        class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02"
+                        data-animation="overlay-anim2"
+                        >Service</span
+                      ><br />
+                      <!-- <span data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03" data-animation="overlay-anim2">Man bun small</span> -->
+                    </h3>
+                    <p
+                      data-animation-child=""
+                      class="p-style-small text-color-2 fade-anim-box tr-delay04"
+                      data-animation="fade-anim"
+                    >
+                      We know offering services is by itself not enough, so we
+                      have created a community with the simple objective of
+                      supporting you via peer-peer interactions as well as
+                      simple weekly activities and expert support that will help
+                      you achieve your monthly business goals at no extra cost.
+                    </p>
+
+                    <div
+                      data-animation-child=""
+                      class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05"
+                      data-animation="fade-anim"
+                    >
+                      <!-- <a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- column end -->
+              </div>
+              <!-- flex-container end -->
+            </div>
+            <!-- portfolio-content-inner end -->
+          </div>
+          <!-- portfolio-content end -->
+        </div>
+        <!-- bottom-padding-90 end -->
+
+        <!-- bottom-padding-90 start -->
+        <div class="bottom-padding-90">
+          <!-- portfolio-content start -->
+          <div class="portfolio-content flex-min-height-box">
+            <!-- portfolio-content-inner start -->
+            <div class="portfolio-content-inner flex-min-height-inner">
+              <!-- flex-container start -->
+              <div class="flex-container container small">
+                <!-- column start -->
+                <div data-animation-container="" class="six-columns">
+                  <div class="content-right-margin-40">
+                    <!-- <span class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">We Are</span> -->
+                    <h3 class="title-style text-color-1">
+                      <span
+                        data-animation-child=""
+                        class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01"
+                        data-animation="overlay-anim2"
+                        >Simply</span
+                      ><br />
+                      <span
+                        data-animation-child=""
+                        class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02"
+                        data-animation="overlay-anim2"
+                        >Innovative</span
+                      ><br />
+                      <!-- <span data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03" data-animation="overlay-anim2">salvia brooklyn</span> -->
+                    </h3>
+                    <p
+                      data-animation-child=""
+                      class="p-style-small text-color-2 fade-anim-box tr-delay04"
+                      data-animation="fade-anim"
+                    >
+                      We set out to provide the best business service for your
+                      business then we became innovative by default. Because
+                      those who choose to simply be better men are sure to
+                      become gods sooner than later. .
+                    </p>
+
+                    <div
+                      data-animation-child=""
+                      class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05"
+                      data-animation="fade-anim"
+                    >
+                      <!-- <a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- column end -->
+                <!-- column start -->
+                <div class="six-columns top-padding-60">
+                  <a
+                    href="project.html"
+                    class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link"
+                  >
+                    <div
+                      class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2"
+                      data-animation="overlay-anim2"
+                      style="background-image:url(assets/images/projects/blur-close-up-equipment-1034651.jpg)"
+                    ></div>
+                  </a>
+                </div>
+                <!-- column end -->
+              </div>
+              <!-- flex-container end -->
+            </div>
+            <!-- portfolio-content-inner end -->
+          </div>
+          <!-- portfolio-content end -->
+        </div>
+        <!-- bottom-padding-90 end -->
+
+        <!-- bottom-padding-90 start -->
+        <div class="bottom-padding-90">
+          <!-- portfolio-content start -->
+          <div class="portfolio-content flex-min-height-box">
+            <!-- portfolio-content-inner start -->
+            <div class="portfolio-content-inner flex-min-height-inner">
+              <!-- flex-container start -->
+              <div class="flex-container reverse container small">
+                <!-- column start -->
+                <div class="six-columns top-padding-60">
+                  <a
+                    href="project.html"
+                    class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link"
+                  >
+                    <div
+                      class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2"
+                      data-animation="overlay-anim2"
+                      style="background-image:url(assets/images/about/apple-brainstorming-business-908288.jpg)"
+                    ></div>
+                  </a>
+                </div>
+                <!-- column end -->
+                <!-- column start -->
+                <div data-animation-container="" class="six-columns">
+                  <div class="content-left-margin-40">
+                    <!-- <span class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">We Are</span> -->
+                    <h3 class="title-style text-color-1">
+                      <span
+                        data-animation-child=""
+                        class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01"
+                        data-animation="overlay-anim2"
+                        >All - In - One</span
+                      ><br />
+                      <!-- <span data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02" data-animation="overlay-anim2">Focused</span><br> -->
+                      <!-- <span data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03" data-animation="overlay-anim2">viral ennui</span> -->
+                    </h3>
+                    <p
+                      data-animation-child=""
+                      class="p-style-small text-color-2 fade-anim-box tr-delay04"
+                      data-animation="fade-anim"
+                    >
+                      One login, one bill, and one place for all your business
+                      needs. With our all in one services, you don’t have to
+                      work with multiple agencies and pay for incompetence.
+                      Enjoying premium business service has never been this
+                      easy.
+                    </p>
+
+                    <div
+                      data-animation-child=""
+                      class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05"
+                      data-animation="fade-anim"
+                    >
+                      <!-- <a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- column end -->
+              </div>
+              <!-- flex-container end -->
+            </div>
+            <!-- portfolio-content-inner end -->
+          </div>
+          <!-- portfolio-content end -->
+        </div>
+        <!-- bottom-padding-90 end -->
+      </section>
+      <!-- section end -->
+      <section class="container">
+          <div data-animation-container="" class="text-center animated">
+              <h2
+                data-animation-child=""
+                class="large-title text-height-10 text-color-1 overlay-anim-box2 animated overlay-anim2"
+                data-animation="overlay-anim2"
+              >
+               Our Partners
+              </h2>
+              <br />
+              <p
+                data-animation-child=""
+                class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5 animated fade-anim"
+                data-animation="fade-anim"
+              >
+                Clients we've worked with
+              </p>
+            </div>
+          <div class="slider " style="height: 300px; margin-top: 60px">
+              <div class="slide-track">
+                <div class="slide">
+                  <img src="./assets/images/01.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/02.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/03.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/04.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/05.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/01.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/02.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/03.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/04.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./assets/images/05.jpg" height="100" width="250" alt="" />
+                </div>
+
+              </div>
+            </div>
+      </section>
+      <!-- light-bg-2 start -->
+			<div class="light-bg-2 top-bottom-padding-120" data-midnight="black">
+          <!-- testimonials-slider start -->
+          <div class="testimonials-slider container small">
+            <!-- swiper-wrapper start -->
+            <div class="swiper-wrapper">
+              <!-- slide start -->
+              <div class="swiper-slide text-center">
+                <img src="assets\images\testimonials\adult-beanie-black-background-1529350.jpg" alt="author">
+                <div class="testimonials-content">
+                  <p class="text-color-4 p-style-bold " style="text-align: center">One word I can use to describe the PaddiHub team is their commitment to the task at hand, innovative in breaking new grounds, they always offers value for money.
+                     <br> Their dexterity has opened up new frontiers and new markets for Fonio lovers and for Pye Ryat. Their skill has made has increased our visibility
+                      </p>
+                </div>
+                <div class="text-color-1 small-title-oswald">
+                    Yop Pamtok, GM & Co-founder Pye Ryat Foods
+                </div>
+              </div><!-- slide end -->
+              <!-- slide start -->
+              <div class="swiper-slide text-center">
+                <img src="assets\images\testimonials\pexels-photo-428340.jpeg" alt="author">
+                <div class="testimonials-content">
+                  <p class="text-color-4 p-style-bold " style="text-align: center">We have been working with the team at PaddiHub for our online marketing. During the period they have shown a good understanding of marketing and sales operations.
+<br>
+We believe that Mr Anselem and the team would be an asset for any company's online marketing.                    </p>
+                </div>
+                <div class="text-color-1 small-title-oswald">
+                    Dung David Dayi, CEO Kim's Coffee 
+                </div>
+              </div><!-- slide end -->
+              <!-- slide start -->
+              <div class="swiper-slide text-center">
+                <img src="assets\images\testimonials\kims.jpg" alt="author">
+                <div class="testimonials-content">
+                  <p class="text-color-4 p-style-bold text-center"style="text-align: center">Anselem and the team are social media savvy with the ability to be creative and think outside the box despite a limited budget. He is excellent in account management which includes a quick response rate in communicating with potential customers thus helping in transforming inquiries into sales and increasing an organic following.</p>
+                </div>
+                <div class="text-color-1 small-title-oswald">
+                    Annabel Fehlmann, Manager, Felak Meat & Felak Burger Bistro
+                </div>
+              </div><!-- slide end -->
+             
+              
+            </div><!-- swiper-wrapper end -->
+            
+            <!-- swiper-pagination -->
+            <div class="swiper-pagination"></div>
+          </div><!-- testimonials-slider end -->
+        </div><!-- light-bg-2 end -->
+      <!-- video-content-bg start -->
+      <!-- <div class="video-content-bg" style="background-image:url(assets/images/backgrounds/business-calligraphy-chinese-lanterns-1455969.jpg)">
+				<div class="bg-overlay"></div>
+				<a href="https://www.youtube.com/watch?v=9TGlc0Fufgk" class="video-play-button popup-youtube pointer-large">
+					<span></span>
+				</a>
+			</div> -->
+      <!-- video-content-bg end -->
+      
+    </main>
+    <!-- animsition-overlay end -->
+
+    <!-- footer start -->
+    <footer class="footer dark-bg-1">
+      <!-- flex-container start -->
+      <div class="flex-container container top-bottom-padding-90">
+        <!-- column start -->
+        <div class="two-columns bottom-padding-60">
+          <div class="content-right-margin-10 footer-center-mobile">
+            <img
+              class="footer-logo"
+              src="assets\images\logo\logo-white.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+        <!-- column end -->
+        <!-- column start -->
+        <div class="three-columns bottom-padding-60">
+          <div class="content-left-right-margin-10">
+            <ul class="footer-menu text-color-4">
+              <li>
+                <a
+                  class="pointer-large animsition-link small-title-oswald hover-color active"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <!-- <li><a class="pointer-large animsition-link small-title-oswald hover-color" href="about.html">About</a></li> -->
+              <li>
+                <a
+                  class="pointer-large animsition-link small-title-oswald hover-color"
+                  href="services.html"
+                  >Get Help</a
+                >
+              </li>
+              <!-- <li><a class="pointer-large animsition-link small-title-oswald hover-color" href="portfolio.html">Portfolio</a></li> -->
+              <!-- <li><a class="pointer-large animsition-link small-title-oswald hover-color" href="blog.html">Blog</a></li> -->
+              <li>
+                <a
+                  class="pointer-large animsition-link small-title-oswald hover-color"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- column end -->
+        <!-- column start -->
+        <div class="four-columns bottom-padding-60">
+          <div class="content-left-right-margin-10 footer-center-mobile">
+            <ul class="footer-information text-color-4">
+              <li>
+                <i class="far fa-envelope"></i
+                ><a href="#" class="xsmall-title-oswald">help@paddihub.com</a>
+              </li>
+              <li>
+                <i class="fas fa-mobile-alt"></i
+                ><a href="#" class="xsmall-title-oswald">0812 210 1727</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i
+                ><a href="#" class="xsmall-title-oswald text-height-17"
+                  >JG 77 Apata Street Jos, <br /><span>Plateau state</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- column end -->
+        <!-- column start -->
+        <div class="three-columns bottom-padding-60">
+          <div class="content-left-margin-10">
+            <ul class="footer-social">
+              <li>
+                <div class="flip-btn-box">
+                  <a
+                    href="https://www.facebook.com/Paddihub-103290877716777/"
+                    class="flip-btn pointer-small"
+                    data-text="Facebook"
+                    >Facebook</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="flip-btn-box">
+                  <a
+                    href="https://www.instagram.com/paddihub/"
+                    class="flip-btn pointer-small"
+                    data-text="Instagram"
+                    >Instagram</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="flip-btn-box">
+                  <a
+                    href="https://www.twitter.com/Paddihub"
+                    class="flip-btn pointer-small"
+                    data-text="Twitter"
+                    >Twitter</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- column end -->
+        <!-- column start -->
+        <div class="twelve-columns">
+          <p class="p-letter-style text-color-4 footer-copyright">
+            &copy; Copyright 2019 <a href="www.paddihub.com"> PaddiHub.com</a>
+          </p>
+        </div>
+        <!-- column end -->
+      </div>
+      <!-- flex-container end -->
+    </footer>
+    <!-- footer end -->
+
+    <!-- scripts -->
+ <link rel="stylesheet" href="./assets/js/style.css">
+
+    <script src="assets\js\plugins.js"></script>
+
+    <script src="assets\js\main.js"></script>
+
+    <script src="assets\js\typewriter.js"></script>
+  </body>
+</html>

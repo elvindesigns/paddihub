@@ -2295,7 +2295,7 @@ body.out .nav-container.active li li:nth-child(6) a {
 	content: attr(data-text);
 	position: absolute;
 	top: 50%;
-	color: #ef0d33;
+	color: #60142e;
 	-webkit-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
 	        transform: translateY(-50%);
@@ -3168,7 +3168,7 @@ body,
 }
 
 .p-style-small {
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 2.15;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -6058,7 +6058,7 @@ button.mfp-close {
 .testimonials-content {
 	padding: 20px;
 	margin: 42px 0 30px 0;
-	background: #ef0d33;
+	background: #60142e;
 	position: relative;
 }
 
@@ -8711,7 +8711,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 }
 .title-style {
 
-    font-size: 35px;
+    font-size: 30px;
 
 }
 .signdiv {
