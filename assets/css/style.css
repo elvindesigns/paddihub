@@ -8758,6 +8758,24 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 		width: 100%;
 	};
   }
+  .titletext {
+	height:110px;
+}
+@media only screen and (max-width: 410px) {
+	.titletext {
+		height: 110px;
+	}
+	
+	
+  }
+  @media only screen and (max-width: 345px) {
+	.titletext {
+		height: 146px;
+	}
+	
+	
+  }
+ 
 .slick-slide {
     margin: 0px 20px;
 }
