@@ -120,6 +120,26 @@
             style="background-image: url(assets/images/about/apple-brainstorming-business-908288.jpg);"
           ></div>
         </li>
+        <li class="nav-box nav-bg-change">
+          <a href="#" class="animsition-link pointer-large nav-link">
+            <span class="nav-btn" data-text="Blog">Blog</span>
+          </a>
+          <div
+            class="nav-bg"
+            style="background-image: url(assets/images/projects/slider/chair-contemporary-cushions-1439965.jpg);"
+          ></div>
+        </li>
+        <li class="nav-box nav-bg-change">
+          <a href="signup.html" class="animsition-link pointer-large nav-link">
+            <span class="nav-btn" data-text="Join Community"
+              >Join Community</span
+            >
+          </a>
+          <div
+            class="nav-bg"
+            style="background-image: url(assets/images/projects/blur-close-up-equipment-1034652.jpg);"
+          ></div>
+        </li>
 
         <li class="nav-box nav-bg-change active">
           <a href="contact.html" class="animsition-link pointer-large nav-link">
@@ -138,6 +158,37 @@
 
     <!-- animsition-overlay start -->
     <main class="animsition-overlay" data-animsition-overlay="true">
+      <!-- STICKY ACTION -->
+      <div class="stickyaction">
+        <a href=""><h3>JOIN OUR COMMUNITY</h3></a>
+      </div>
+      <style>
+        .stickyaction {
+          display: none;
+          text-align: center;
+          width: 100%;
+          background-color: #ffffff;
+          position: fixed;
+          bottom: 0;
+          padding: 30px 0;
+          z-index: 999;
+          border: 3px solid black;
+        }
+        .stickyaction a {
+          color: rgb(0, 0, 0);
+        }
+        @media only screen and (max-width: 768px) {
+          .stickyaction {
+            display: block;
+          }
+        }
+        .contact-form-box .border-btn::before {
+          color: black;
+        }
+        .contact-form-box .border-btn-box {
+          border: 1px solid black;
+        }
+      </style>
       <!-- flex-min-height-box start -->
       <section id="down" class="dark-bg-1 flex-min-height-box">
         <!-- flex-min-height-inner start -->
@@ -266,20 +317,21 @@
       <!-- flex-min-height-box end -->
 
       <!-- contact-form-box start -->
+
       <section
-        class="contact-form-box flex-min-height-box"
-        style="background-image:url(./assets/images/projects/slider/chair-contemporary-cushions-1439965.jpg)"
+        class="contact-form-box flex-min-height-box light-bg-1"
+        data-midnight="black"
       >
-        <div class="bg-overlay"></div>
+        <div class=""></div>
         <!-- flex-min-height-inner start -->
         <div class="flex-min-height-inner">
           <!-- container start -->
           <div class="container small top-bottom-padding-120">
             <h4
               class="small-title-oswald text-color-4 text-center"
-              style="font-size: 40px;"
+              style="font-size: 40px; color: black"
             >
-              Lets Get In Touch!
+              Get In Touch!
             </h4>
             <!-- flex-container start -->
             <form class="flex-container top-padding-90">
@@ -340,6 +392,32 @@
         </div>
         <!-- flex-min-height-inner end -->
       </section>
+      <style>
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          color: black !important;
+        }
+        input[type="text"]::placeholder,
+        input[type="email"]::placeholder,
+        textarea::placeholder {
+          color: black;
+        }
+        .contact-form-control {
+          border-bottom-color: black;
+          text-transform: none;
+        }
+        input[type="text"]:active {
+          border-bottom-color: black;
+          text-transform: none;
+        }
+        .title-fill::after {
+          color: #60142e;
+        }
+        .red-color {
+          color: #60142e;
+        }
+      </style>
       <!-- contact-form-box end -->
     </main>
     <!-- animsition-overlay end -->

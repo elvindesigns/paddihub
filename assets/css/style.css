@@ -3376,7 +3376,7 @@ body,
 /* 8.1. To top button */
 .to-top-btn {
   	position: fixed;
-  	bottom: 40px;
+  	bottom: 100px;
   	right: 40px;
   	overflow: hidden;
   	width: 40px;
@@ -8721,7 +8721,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
   }
 .signin {
 	padding: 2px 40px;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 	border: 2px solid white;
 	border-radius: 20px;

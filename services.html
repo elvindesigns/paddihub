@@ -11,7 +11,9 @@
 		
 		<!-- styles -->	
         <link href="assets\css\plugins.css" rel="stylesheet" type="text/css">
-        <link href="assets\css\style.css" rel="stylesheet" type="text/css">
+        
+				<link href="assets\css\style.css" rel="stylesheet" type="text/css">
+
 	</head>
 	<body class="loader">
 		<!-- loading start -->
@@ -99,7 +101,30 @@
 					  class="nav-bg"
 					  style="background-image: url(assets/images/about/apple-brainstorming-business-908288.jpg);"
 					></div>
-				  </li>
+					</li>
+					<li class="nav-box nav-bg-change">
+						<a
+							href="#"
+							class="animsition-link pointer-large nav-link"
+						>
+							<span class="nav-btn" data-text="Blog">Blog</span>
+						</a>
+						<div
+							class="nav-bg"
+							style="background-image: url(assets/images/projects/slider/chair-contemporary-cushions-1439965.jpg);"
+						></div>
+					</li>
+					<li class="nav-box nav-bg-change">
+						<a href="signup.html" class="animsition-link pointer-large nav-link">
+							<span class="nav-btn" data-text="Join Community"
+								>Join Community</span
+							>
+						</a>
+						<div
+							class="nav-bg"
+							style="background-image: url(assets/images/projects/blur-close-up-equipment-1034652.jpg);"
+						></div>
+					</li>
 		  
 				  <li class="nav-box nav-bg-change">
 					<a href="contact.html" class="animsition-link pointer-large nav-link">
@@ -119,7 +144,31 @@
 		<!-- animsition-overlay start -->
 		<main class="animsition-overlay" data-animsition-overlay="true">
 			
-			
+			 <!-- STICKY ACTION -->
+			 <div class="stickyaction">
+					<a href=""><h3>JOIN OUR COMMUNITY</h3></a>
+				</div>
+				<style>
+					.stickyaction {
+          display: none;
+          text-align: center;
+          width: 100%;
+          background-color: #ffffff;
+          position: fixed;
+          bottom: 0;
+          padding: 30px 0;
+          z-index: 999;
+          border: 3px solid black;
+        }
+        .stickyaction a {
+          color: rgb(0, 0, 0);
+        }
+        @media only screen and (max-width: 768px) {
+          .stickyaction {
+            display: block;
+          }
+        }
+				</style>
 			<!-- section start -->
 			<section class="light-bg-1" data-midnight="black">
 				<!-- container start -->
@@ -130,21 +179,27 @@
 						<p data-animation-child="" class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5" data-animation="fade-anim">One Place – All The Help For Your Business</p>
 					</div><!-- text-center end -->
 
-					<div class="top-padding-90">
-							<!-- container start -->
+					<!-- <div class="top-padding-90">
+							container start
 							<div class="container">
 								<div class="services-bg" style="background-image:url(assets/images/services/apple-books-computers-115655.jpg)"></div>	
-							</div><!-- container end -->
+							</div> container end 
 							
 							
-						</div>		
+						</div>		 -->
 
 					
-					<div data-animation-container="" class="text-center" style="margin-top:50px">
+					<!-- <div data-animation-container="" class="text-center" style="margin-top:50px">
 							<p data-animation-child="" class="fade-anim-box tr-delay02 text-color-1 xsmall-title-oswald top-margin-5" data-animation="fade-anim">How we can help</p> <br>
 						<h2 data-animation-child="" class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">INDIVIDUAL SERVICES</h2><br>
 						
-					</div><!-- text-center end -->
+					</div> -->
+					<!-- text-center end -->
+					<style>
+					.border-btn-box {
+							border: 1px solid #000;
+							}
+									</style>
 					
 					<!-- flex-container start -->
 					<div class="flex-container response-999 top-padding-60">
@@ -158,7 +213,17 @@
 									<h3 data-animation-child="" class="small-title-oswald text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Virtual Business Assistant</h3><br>
 									<p data-animation-child="" class="p-style-xsmall text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Get a dedicated assistant trained to provide customer support, research, competitor analysis, proofreading, and other custom tasks you may assign at a Text-notice. Prices varies depending on what you want – Contact us for details</p>
 								</div>
+								<div class="twelve-columns text-center bottom-padding-60 ">
+										<button class="border-btn-box pointer-large">
+											<span class="border-btn-inner">
+												<span class="border-btn" data-text="GET HELP"
+													>GET HELP</span
+												>
+											</span>
+										</button>
+									</div>
 							</a>
+							
 						</div><!-- column end -->
 						<!-- column start -->
 						<div class="four-columns bottom-padding-60">
@@ -170,6 +235,15 @@
 									<h3 data-animation-child="" class="small-title-oswald text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Business Registration</h3><br>
 									<p data-animation-child="" class="p-style-xsmall text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Make your business legal by registering it as a business name or incorporating it – (business name payment page) (Incorporation payment page)</p>
 								</div>
+								<div class="twelve-columns text-center bottom-padding-60 ">
+										<button class="border-btn-box pointer-large">
+											<span class="border-btn-inner">
+												<span class="border-btn" data-text="GET HELP"
+													>GET HELP</span
+												>
+											</span>
+										</button>
+									</div>
 							</a>
 						</div><!-- column end -->
 						<!-- column start -->
@@ -182,6 +256,15 @@
 									<h3 data-animation-child="" class="small-title-oswald text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Branding</h3><br>
 									<p data-animation-child="" class="p-style-xsmall text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Get your professional business logo, business card, Letterhead and envelopes tailored to your business suiting.</p>
 								</div>
+								<div class="twelve-columns text-center bottom-padding-60 ">
+										<button class="border-btn-box pointer-large">
+											<span class="border-btn-inner">
+												<span class="border-btn" data-text="GET HELP"
+													>GET HELP</span
+												>
+											</span>
+										</button>
+									</div>
 							</a>
 						</div><!-- column end -->
 						<!-- column start -->
@@ -194,6 +277,15 @@
 									<h3 data-animation-child="" class="small-title-oswald text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Social Media</h3><br>
 									<p data-animation-child="" class="p-style-xsmall text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Audit your social media accounts, get a dedicated social media manager -create content, provide social care, content calendar, etc </p>
 								</div>
+								<div class="twelve-columns text-center bottom-padding-60 ">
+										<button class="border-btn-box pointer-large">
+											<span class="border-btn-inner">
+												<span class="border-btn" data-text="GET HELP"
+													>GET HELP</span
+												>
+											</span>
+										</button>
+									</div>
 							</a>
 						</div><!-- column end -->
 						<!-- column start -->
@@ -206,6 +298,15 @@
 									<h3 data-animation-child="" class="small-title-oswald text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Website & Blog Management </h3><br>
 									<p data-animation-child="" class="p-style-xsmall text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Allow us redesign your website, create new website or even maintain it ;  post on your blog etc (frequency differentiates plans)</p>
 								</div>
+								<div class="twelve-columns text-center bottom-padding-60 ">
+										<button class="border-btn-box pointer-large">
+											<span class="border-btn-inner">
+												<span class="border-btn" data-text="GET HELP"
+													>GET HELP</span
+												>
+											</span>
+										</button>
+									</div>
 							</a>
 						</div><!-- column end -->
 						<!-- column start -->
@@ -218,200 +319,195 @@
 									<h3 data-animation-child="" class="small-title-oswald text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim">Content & Asset Management </h3><br>
 									<p data-animation-child="" class="p-style-xsmall text-color-1 hover-content fade-anim-box tr-delay02" data-animation="fade-anim">Revamp all your contents; blog, social, website, emai and create and manage digital assets for your business like ebooks, recipe books, etcl with our in-house copywriters at your beck and call. </p>
 								</div>
+								<div class="twelve-columns text-center bottom-padding-60 ">
+										<button class="border-btn-box pointer-large">
+											<span class="border-btn-inner">
+												<span class="border-btn" data-text="GET HELP"
+													>GET HELP</span
+												>
+											</span>
+										</button>
+									</div>
 							</a>
 						</div><!-- column end -->
 					</div><!-- flex-container end -->
 				</div><!-- container end -->
 			</section><!-- section end -->
-			<section class="dark-bg-1 flex-min-height-box progress-container" style="background-color:#1b2a2f">
-					<!-- flex-min-height-inner start -->
-					<div class="flex-min-height-inner">
-						<!-- flex-container start -->
-						<div class="flex-container container top-bottom-padding-120">
-							<!-- column start -->
-							<div class="six-columns bottom-padding-60">
-								<div class="progress-bg overlay-anim-box2 animated overlay-anim2" data-animation="overlay-anim2" style="background-image:url(assets/images/services/action-asia-blur-1455989.jpg)"></div>
-							</div><!-- column end -->
-							<!-- column start -->
-							<div class="six-columns">
-								<div class="content-left-margin-40">
-									
-									
-									
-									
-									<!-- medium-title start -->
-									<h2 data-animation-container="" class="medium-title text-center animated">
-										<span data-animation-child="" class="title-fill animated title-fill-anim" data-animation="title-fill-anim" data-text="Community Service">Community Service</span>
-									</h2><!-- medium-title end -->
-									<style>
-									.dark-bg-1 .title-fill::after {background: #1b2a2f;}
-									.title-fill::after {color: #fff;}
-									.small-title-oswald {font-size: 20px;}
-									</style>
-									
-									
-									<div class="top-margin-30 animated" data-animation-container="">
-										<!-- progress-box start -->
-										<div class="progress-box">
-											<div data-animation-child="" class="p-letter-style title-fill animated title-fill-anim" data-animation="title-fill-anim" data-text="10% discount on all our">10% discount on all our</div><br>
-											<div data-animation-child="" class="p-letter-style title-fill animated title-fill-anim" data-animation="title-fill-anim" data-text="services every month">services every month</div>
-											<!-- <div data-animation-child="" class="p-letter-style title-fill tr-delay02 progress-counter animated title-fill-anim" data-animation="title-fill-anim" data-text="63%">63%</div> -->
-											<div class="progress-zero" data-progress="63%">
-												<div class="progress-full animated slide-progress" data-animation-child="" data-animation="slide-progress" style="width: 63%;"></div>   
-												<div class="progress-full progress-full-red animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="200ms" style="animation-delay: 200ms; width: 63%;"></div>
-											</div>
-										</div><!-- progress-box end -->
-										<!-- progress-box start -->
-										<div class="progress-box">
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay01 animated title-fill-anim" data-animation="title-fill-anim" data-text="Accountability / Support partner">Accountability / Support partner</div>
-											<!-- <div data-animation-child="" class="p-letter-style title-fill tr-delay03 progress-counter animated title-fill-anim" data-animation="title-fill-anim" data-text="80%">80%</div> -->
-											<div class="progress-zero" data-progress="80%">
-												<div class="progress-full animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="100ms" style="animation-delay: 100ms; width: 80%;"></div>
-												<div class="progress-full progress-full-red animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="300ms" style="animation-delay: 300ms; width: 80%;"></div>                    
-											</div>
-										</div><!-- progress-box end -->
-										<!-- progress-box start -->
-										<div class="progress-box">
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay02 animated title-fill-anim" data-animation="title-fill-anim" data-text="EXCLUSIVE access to discounts">EXCLUSIVE access to discounts</div><br>
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay02 animated title-fill-anim" data-animation="title-fill-anim" data-text="from our partners">from our partners</div>
-											<!-- <div data-animation-child="" class="p-letter-style title-fill tr-delay04 progress-counter animated title-fill-anim" data-animation="title-fill-anim" data-text="100%">100%</div> -->
-											<div class="progress-zero" data-progress="100%">
-												<div class="progress-full animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="200ms" style="animation-delay: 200ms; width: 100%;"></div>
-												<div class="progress-full progress-full-red animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="400ms" style="animation-delay: 400ms; width: 100%;"></div>                    
-											</div>
-										</div><!-- progress-box end -->		
-										<!-- progress-box start -->
-										<div class="progress-box">
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay03 animated title-fill-anim" data-animation="title-fill-anim" data-text="Tailored funding opportunities">Tailored funding opportunities</div><br>
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay03 animated title-fill-anim" data-animation="title-fill-anim" data-text="delivered directly to you">delivered directly to you</div>
-											<!-- <div data-animation-child="" class="p-letter-style title-fill tr-delay05 progress-counter animated title-fill-anim" data-animation="title-fill-anim" data-text="93%">93%</div> -->
-											<div class="progress-zero" data-progress="93%">
-												<div class="progress-full animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="300ms" style="animation-delay: 300ms; width: 93%;"></div>   
-												<div class="progress-full progress-full-red animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="500ms" style="animation-delay: 500ms; width: 93%;"></div>                 
-											</div>
-										</div><!-- progress-box end -->
-										<!-- progress-box start -->
-										<div class="progress-box">
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay04 animated title-fill-anim" data-animation="title-fill-anim" data-text="Pay Small-Small for all our services">Pay Small-Small for all our services</div><br>
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay04 animated title-fill-anim" data-animation="title-fill-anim" data-text="when you can’t afford to pay at once">when you can’t afford to pay at once</div>
-											<!-- <div data-animation-child="" class="p-letter-style title-fill tr-delay06 progress-counter animated title-fill-anim" data-animation="title-fill-anim" data-text="75%">75%</div> -->
-											<div class="progress-zero" data-progress="75%">
-												<div class="progress-full animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="400ms" style="animation-delay: 400ms; width: 75%;"></div>       
-												<div class="progress-full progress-full-red animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="600ms" style="animation-delay: 600ms; width: 75%;"></div>             
-											</div>
-										</div><!-- progress-box end -->
-										<!-- progress-box start -->
-										<div class="progress-box">
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay05 animated title-fill-anim" data-animation="title-fill-anim" data-text="Monthly Goal Achievement">Monthly Goal Achievement</div><br>
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay05 animated title-fill-anim" data-animation="title-fill-anim" data-text="Plan and Tracking">Plan and Tracking</div>
-											<!-- <div data-animation-child="" class="p-letter-style title-fill tr-delay07 progress-counter animated title-fill-anim" data-animation="title-fill-anim" data-text="87%">87%</div> -->
-											<div class="progress-zero" data-progress="87%">
-												<div class="progress-full animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="500ms" style="animation-delay: 500ms; width: 87%;"></div>     
-												<div class="progress-full progress-full-red animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="700ms" style="animation-delay: 700ms; width: 87%;"></div>               
-											</div>
-										</div><!-- progress-box end -->
-										<!-- progress-box start -->
-										<div class="progress-box">
-											<div data-animation-child="" class="p-letter-style title-fill tr-delay05 animated title-fill-anim" data-animation="title-fill-anim" data-text="Paid to help your friends succeed">Paid to help your friends succeed</div><br>
-											
-											<!-- <div data-animation-child="" class="p-letter-style title-fill tr-delay07 progress-counter animated title-fill-anim" data-animation="title-fill-anim" data-text="87%">87%</div> -->
-											<div class="progress-zero" data-progress="87%">
-												<div class="progress-full animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="500ms" style="animation-delay: 500ms; width: 87%;"></div>     
-												<div class="progress-full progress-full-red animated slide-progress" data-animation-child="" data-animation="slide-progress" data-animation-delay="700ms" style="animation-delay: 700ms; width: 87%;"></div>               
-											</div>
-										</div><!-- progress-box end -->
-									</div>
-								</div>
-							</div><!-- column end -->
-						</div><!-- flex-container end -->
-					</div><!-- flex-min-height-inner end -->
-				</section>
-
-				<style>
-					.progress-box div {font-size: 16px;}
-					.p-letter-style {letter-spacing: 1px;line-height: 1.4;}
-				</style>
+			
 				 <!-- bottom-padding-90 start -->
-				 <div class="bottom-padding-90">
+				 <div class="" class="light-bg-1" data-midnight="black">
 				
 			  
-					<!-- bottom-padding-90 start -->
-					<div class="bottom-padding-90">
-					  <!-- portfolio-content start -->
-					  <div class="portfolio-content flex-min-height-box">
-						<!-- portfolio-content-inner start -->
-						<div class="portfolio-content-inner flex-min-height-inner">
-						  <!-- flex-container start -->
-						  <div class="flex-container container small">
-							<!-- column start -->
-							<div data-animation-container="" class="six-columns">
-							  <div class="content-right-margin-40">
-								<span
-								  class="small-title-oswald red-color overlay-anim-box2"
-								  data-animation="overlay-anim2"
-								  >will you</span
-								>
-								<h3 class="title-style text-color-1">
-								  <span
-									data-animation-child=""
-									class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01"
-									data-animation="overlay-anim2"
-									>Trust</span
-								  ><br />
-								  <span
-									data-animation-child=""
-									class="overlay-anim-box2 overlay-dark-bg-2 tr-delay02"
-									data-animation="overlay-anim2"
-									>Us ?</span
-								  ><br />
-								  <!-- <span data-animation-child="" class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03" data-animation="overlay-anim2">salvia brooklyn</span> -->
-								</h3>
-								<p
-								  data-animation-child=""
-								  class="p-style-small text-color-2 fade-anim-box tr-delay04"
-								  data-animation="fade-anim"
-								>
-								  Who are we kidding, its true you don’t trust us, if your
-								  parents were like ours you must have been told never to
-								  trust strangers…well until they become friends. We have
-								  trust based service and we have sworn to ALWAYS refund 100%
-								  of your payment if you’re not satisfied enough to tell your
-								  friends about us.
-								</p>
-			  
-								<div
-								  data-animation-child=""
-								  class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05"
-								  data-animation="fade-anim"
-								>
-								  <!-- <a href="project.html" class="arrow-btn pointer-large animsition-link">Read more</a> -->
-								</div>
-							  </div>
-							</div>
-							<!-- column end -->
-							<!-- column start -->
-							<div class="six-columns top-padding-60">
-							  <a
-								href="project.html"
-								class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link"
-							  >
-								<div
-								  class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2"
-								  data-animation="overlay-anim2"
-								  style="background-image:url(assets/images/projects/blur-close-up-equipment-1034652.jpg)"
-								></div>
-							  </a>
-							</div>
-							<!-- column end -->
-						  </div>
-						  <!-- flex-container end -->
-						</div>
-						<!-- portfolio-content-inner end -->
-					  </div>
-					  <!-- portfolio-content end -->
-					</div>
+					
 					<!-- bottom-padding-90 end -->
-			
+					<section  class="light-bg-1 container bottom-padding-60" data-midnight="black">
+							<div data-animation-container="" class="bottom-padding-60">
+									<h3 data-animation-child="" class="small-title-oswald text-color-1 hover-content fade-anim-box tr-delay01" data-animation="fade-anim" style="font-size:25px">Frequently Asked Questions</h3>
+								<br>	<p
+									data-animation-child=""
+									class="p-style-small text-color-2 fade-anim-box tr-delay04"
+									data-animation="fade-anim"
+								>
+								If our FAQs don't answer your questions, please reach out to us on the contact form below.
+								</p>
+							</div>
+							<button class="accordiono">How Do I Join The Community?</button>
+							<div class="panel">
+								<p>To join our community, simply request access or click on the join community button, fill out the form and make payment to be sent a link to join.</p>
+							</div>
+							
+							<button class="accordiono">How can I get a Refund?</button>
+							<div class="panel">
+								<p>We offer 100% lifetime guaranteed refunds on all community subscriptions, no questions asked. Simply send us a message via WhatsApp, Text, or Email or fill our contact form below and your refund would be processed.</p>
+							</div>
+							
+							<button class="accordiono">How long does it take to have a service delivered?</button>
+							<div class="panel">
+								<p>It depends on the particular service you opted for and the urgency of need.</p>
+							</div> 
+							<button class="accordiono">Can I change My Partner?</button>
+							<div class="panel">
+								<p>Though we don't encourage this but If you would like to change your assigned partner. Simply fill in a query via our contact form to make a request.</p>
+							</div> 
+							<button class="accordiono">Do You accept Bank Transfers? </button>
+							<div class="panel">
+								<p>For now we only accept online transfer via our payment processors.</p>
+							</div> 
+							<style>
+							.accordiono {
+								background-color: #eee;
+								font-size: 20px;
+								color: #444;
+								cursor: pointer;
+								padding: 18px;
+								width: 100%;
+								text-align: left;
+								border: none;
+								outline: none;
+								transition: 0.4s;
+							}
+
+							/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+							.activeo, .accordiono:hover {
+								background-color: #ccc;
+							}
+
+							/* Style the accordiono panel. Note: hidden by default */
+							.panel {
+								font-size: 18px;
+								padding: 0 18px;
+								background-color: white;
+								display: none;
+								overflow: hidden;
+								padding-bottom: 20px;
+							} 
+							.accordiono:after {
+								content: '\02795'; /* Unicode character for "plus" sign (+) */
+								font-size: 13px;
+								color: #777;
+								float: right;
+								margin-left: 5px;
+							}
+
+							.activeo:after {
+								content: "\2796"; /* Unicode character for "minus" sign (-) */
+							}
+							</style>
+							<script>
+								var acc = document.getElementsByClassName("accordiono");
+								var i;
+
+								for (i = 0; i < acc.length; i++) {
+									acc[i].addEventListener("click", function() {
+										/* Toggle between adding and removing the "active" class,
+										to highlight the button that controls the panel */
+										this.classList.toggle("activeo");
+
+										/* Toggle between hiding and showing the active panel */
+										var panel = this.nextElementSibling;
+										if (panel.style.display === "block") {
+											panel.style.display = "none";
+										} else {
+											panel.style.display = "block";
+										}
+									});
+								} 
+							</script>
+					</section>
+					<section
+					class="contact-form-box flex-min-height-box"
+					style="background: rgb(96, 20, 46) "
+				>
+					<!-- <div class="bg-overlay"></div> -->
+					<!-- flex-min-height-inner start -->
+					<div class="flex-min-height-inner" style="min-height: auto">
+						<!-- container start -->
+						<div class="container small top-bottom-padding-120">
+							<h4
+								class="small-title-oswald text-color-4 text-center"
+								style="font-size: 40px;"
+							>
+								Lets Get In Touch!
+							</h4>
+							<!-- flex-container start -->
+							<form class="flex-container top-padding-90">
+								<!-- column start -->
+								<div class="four-columns">
+									<div class="content-right-margin-10">
+										<input
+											type="text"
+											placeholder="Enter your name"
+											class="contact-form-control pointer-small"
+										/>
+									</div>
+								</div>
+								<!-- column end -->
+								<!-- column start -->
+								<div class="four-columns">
+									<div class="content-left-right-margin-5">
+										<input
+											type="text"
+											placeholder="Enter your last name"
+											class="contact-form-control pointer-small"
+										/>
+									</div>
+								</div>
+								<!-- column end -->
+								<!-- column start -->
+								<div class="four-columns">
+									<div class="content-left-margin-10">
+										<input
+											type="email"
+											placeholder="Enter your email address"
+											class="contact-form-control pointer-small"
+										/>
+									</div>
+								</div>
+								<!-- column end -->
+								<!-- column start -->
+								<div class="twelve-columns">
+									<textarea
+										placeholder="Enter your message"
+										class="contact-form-control pointer-small"
+									></textarea>
+								</div>
+								<!-- column end -->
+								<!-- column start -->
+								<div class="twelve-columns text-center top-padding-90">
+									<button class="border-btn-box pointer-large">
+										<span class="border-btn-inner">
+											<span class="border-btn" data-text="submit">submit</span>
+										</span>
+									</button>
+								</div>
+								<!-- column end -->
+							</form>
+							<!-- flex-container end -->
+						</div>
+						<!-- container end -->
+					</div>
+					<!-- flex-min-height-inner end -->
+				</section>
 		</main><!-- animsition-overlay end -->
 		
 		 <!-- footer start -->
@@ -531,7 +627,9 @@
 			  <!-- footer end -->
 		
 		<!-- scripts --> 
+
         <script src="assets\js\plugins.js"></script> 
         <script src="assets\js\main.js"></script>
+        
 	</body>
 </html>
